@@ -37,7 +37,7 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <div className="flex justify-center items-center max-h-screen h-screen">
       <Helmet>
         <title>Contact page</title>
         <meta
@@ -113,7 +113,7 @@ const Contact = () => {
           </div>
         </div>
       </div> */}
-      <div className="md:w-[1100px] md:mt-24 group w-[370px] rounded-[64px] overflow-hidden mx-auto relative h-[400px] bg-blue-200">
+      <div className="md:w-[1100px] md:mt-24  group w-[370px] rounded-[64px] overflow-hidden m-auto relative h-[400px] bg-blue-200">
         <div className="rounded-[80px] absolute md:left-[83%] left-[80%] md:-top-28 -top-[84px] bg-blue-900  w-[150px] md:w-[500px] md:h-[300px] h-[200px] group-hover:scale-[1.05] transition ease-in-out duration-500"></div>
         <div className="rounded-[80px] absolute md:right-[83%] right-[80%] md:-top-28 -top-[84px] bg-blue-600 w-[150px] md:w-[500px] md:h-[300px] h-[200px] group-hover:scale-[1.05] transition ease-in-out duration-500"></div>
         <div className="rounded-[80px] absolute md:left-[83%] left-[80%] md:-bottom-28 -bottom-20 bg-blue-700 w-[150px]  md:w-[500px] md:h-[300px] h-[200px] group-hover:scale-[1.05] transition ease-in-out duration-500"></div>
@@ -125,7 +125,7 @@ const Contact = () => {
 
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Contact;
