@@ -34,6 +34,7 @@ export default function Hero() {
           content="This is the home page of my portfolio. It contains my designation and all the other internal links to my portfolio."
         />
         <link rel="canonical" href="/" />
+        
       </Helmet>
       <div className="grid grid-cols-1 md:gap-10 md:my-8 pt-20 md:pt-0 md:mt-16 place-items-center">
         <div className="order-last md:order-first">

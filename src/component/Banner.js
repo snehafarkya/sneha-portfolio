@@ -58,21 +58,9 @@ const images = [
         })}
       </ul>
       <div className="absolute left-0 top-0 bottom-0 w-12 opacity-65 gradient-left " />
-      <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-[#FFFBF6] to-transparent pointer-events-none gradient-right" />
+      <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l pointer-events-none gradient-right" />
     </div>
-    {/* <div className=" marquee-text marquee-text2  overflow-hidden  flex gap-2" style={{animationDelay:'15s'}}>
-        <p className='flex gap-10 justify-center items-center'>
-
-
-        {images.map((item)=>{
-          return (
-            <>
-            <Image src={item.image} alt='images' />
-            </>
-          )
-        })}
-        </p>
-      </div> */}
+    
   </div>
   );
 }
