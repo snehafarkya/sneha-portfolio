@@ -1,0 +1,51 @@
+
+[
+  {
+    "company": "QORUZ",
+    "duration": "August 2023 - Present",
+    "description": "As a Frontend Developer at Qoruz, I specialized in crafting user-centric digital experiences and transforming complex requirements into sleek, functional designs. I worked alongside a talented team to enhance interface usability and performance.",
+    "bgColor": "#dadeec",
+    "textColor": "#18244b",
+    "textColorHighlight": "#ffa700"
+  },
+  {
+    "company": "Freelance",
+    "duration": "June 2023 - July 2023",
+    "description": "As a freelance developer, I understood client's requirement and have worked closely to deliver beautiful UI. I worked with Storybook to make global components that can be easily accessed..",
+    "bgColor": "#dde5fa",
+    "textColor": "#18244b",
+    "textColorHighlight": "#ffa700"
+  },
+  {
+    "company": "GoSchedule",
+    "duration": "March 2023 - April 2023",
+    "description": "Worked remotely with the founder and senior developer in Angular js. Made dashboard component from scratch and developed the onboarding calendly like scheduler.",
+    "bgColor": "#dadeec",
+    "textColor": "#18244b",
+    "textColorHighlight": "#ffa700"
+  },
+  {
+    "company": "Economize",
+    "duration": "August 2022 - November 2022",
+    "description": "At Economize, I wrote technical blogs and developed my inter personal skills. I worked closely with co-founder and built strong time management skills.",
+    "bgColor": "#dde5fa",
+    "textColor": "#18244b",
+    "textColorHighlight": "#ffa700"
+  },
+  {
+    "company": "The Bug Community",
+    "duration": "November 2021 - February 2022",
+    "description": "TBC taught me how to deal and negotiate with clients. I worked on strict deadlines, wrote content for clients, made videos for clients.",
+    "bgColor": "#dadeec",
+    "textColor": "#18244b",
+    "textColorHighlight": "#ffa700"
+  },
+  {
+    "company": "Medi-Caps University ACM Student Chapter",
+    "duration": "August 2021 - August 2022",
+    "description": "I was the Executive member of content team in (MU-ACM). I got my hands on new experiences. I wrote descriptive emails, whatsapp invitation messages and event invitations etc.",
+    "bgColor": "#dde5fa",
+    "textColor": "#18244b",
+    "textColorHighlight": "#ffa700"
+  }
+]
