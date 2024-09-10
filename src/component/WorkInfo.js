@@ -19,7 +19,7 @@ const work = [
     image:githubRepo,
     title:'GitHub Repository Evolution',
     link:'https://github.com/snehafarkya/github-repo-evolution-finder',
-    desc:"The GitHub Repository Evolution Finder is a tool designed to visualize the progression of a GitHub repository over time. It allows users to track the key milestones, commits, and events within a repository's history, offering a clear timeline of its evolution.",
+    desc:"The GitHub Repository Evolution Finder is a tool designed to visualize the progression of a GitHub repository over time. It allows users to track the key milestones, commits, and events within a repository's history.",
     tags:[
       {
         one:'React',
