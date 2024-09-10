@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import axios from 'axios';
+import axios from "axios";
 import emailjs from "@emailjs/browser";
 import { Heading } from "@chakra-ui/react";
 import { Helmet } from "react-helmet-async";
@@ -25,14 +25,15 @@ const Contact = () => {
       msg: message,
     };
 
-    axios.post('http://localhost:4000/insert', formData)
+    axios
+      .post("http://localhost:4000/insert", formData)
       .then((response) => {
-        console.log('Data sent successfully:', response.data);
-        document.getElementById('thank').style.display = "flex";
-        document.getElementById('formm').style.display = "none";
+        console.log("Data sent successfully:", response.data);
+        document.getElementById("thank").style.display = "flex";
+        document.getElementById("formm").style.display = "none";
       })
       .catch((error) => {
-        console.error('There was an error sending the data!', error);
+        console.error("There was an error sending the data!", error);
       });
   };
 
@@ -46,7 +47,7 @@ const Contact = () => {
         />
         <link rel="canonical" href="/contact" />
       </Helmet>
-     
+
       {/* <div className="grid grid-cols-1 place-items-center rounded-xl md:flex md:gap-16 md:justify-center md:items-center h-full mx-auto">
         <div className="container md:flex hidden">
           <div className="flex gap-2 flex-col">
@@ -118,11 +119,20 @@ const Contact = () => {
         <div className="rounded-[80px] absolute md:right-[83%] right-[80%] md:-top-28 -top-[84px] bg-blue-600 w-[150px] md:w-[500px] md:h-[300px] h-[200px] group-hover:scale-[1.05] transition ease-in-out duration-500"></div>
         <div className="rounded-[80px] absolute md:left-[83%] left-[80%] md:-bottom-28 -bottom-20 bg-blue-700 w-[150px]  md:w-[500px] md:h-[300px] h-[200px] group-hover:scale-[1.05] transition ease-in-out duration-500"></div>
         <div className="rounded-[80px] absolute md:right-[83%] right-[80%] md:-bottom-28 -bottom-20 bg-blue-300 w-[150px] md:w-[500px] md:h-[300px] h-[200px] group-hover:scale-[1.05] transition ease-in-out duration-500"></div>
-        <div className="flex flex-col items-center my-auto justify-center gap-4" style={{height:"inherit"}}>
-          <h1 className="text-3xl text-center  font-bold text-[#18224b] ">Got Something to say? Let's Chat</h1>
-          <p className="text-2xl dark:text-[#18224b] text-[#18224b] font-medium">I am all ears!</p>
-          <PrimaryButton text="Drop me an email" href={"mailto:sneha06.work@gmail.com"}/>
-
+        <div
+          className="flex flex-col items-center my-auto justify-center gap-4"
+          style={{ height: "inherit" }}
+        >
+          <h1 className="text-3xl text-center  font-bold text-[#18224b] ">
+            Got Something to say? Let's Chat
+          </h1>
+          <p className="text-2xl dark:text-[#18224b] text-[#18224b] font-medium">
+            I am all ears!
+          </p>
+          <PrimaryButton
+            text="Drop me an email"
+            href={"mailto:sneha06.work@gmail.com"}
+          />
         </div>
       </div>
     </div>

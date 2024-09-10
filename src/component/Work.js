@@ -93,7 +93,7 @@ export default function Work() {
         <span className="text-[#ffa700]  font-bold">
           Open Source enthusiast, &nbsp;{" "}
         </span>
-        these are some of the projects or features I built. 
+        these are some of the projects or features I built.
       </Heading>
       <div className="grid md:grid-cols-3 grid-cols-1  ">{workData}</div>
       <div class="text-center py-4 lg:px-4 w-max m-auto mt-20">

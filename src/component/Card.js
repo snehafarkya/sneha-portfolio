@@ -35,11 +35,7 @@ const Card = ({ item }) => {
                     className="bg-transparent pb-4 text-[#670B8A] font-bold px-6 text-sm group-hover:underline underline-offset-2"
                     margin="0em 1.3em 1em"
                   >
-                    <a
-                      href={Val.link}
-                      target="_blank"
-                      className="text-sm"
-                    >
+                    <a href={Val.link} target="_blank" className="text-sm">
                       Read it here
                     </a>
                   </button>

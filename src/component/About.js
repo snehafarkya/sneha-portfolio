@@ -7,13 +7,11 @@ import {
   Heading,
   Text,
   CardFooter,
-  Button,
 } from "@chakra-ui/react";
 import myImg from "../assets/workwomen1.png";
 import Skills from "./Skills";
 import "../App.css";
 import Newexp from "./Newexp";
-import Projects from "./Projects";
 // import Calendly from 'react-calendly'
 
 const About = forwardRef((props, ref) => {
@@ -37,7 +35,7 @@ const About = forwardRef((props, ref) => {
           className="text-white dark:text-[#18224b]"
         >
           {/* Wondering about me? 👩‍💻 */}
-          Wondering more 'bout me? 👩‍💻 
+          Wondering more 'bout me? 👩‍💻
         </Heading>
         {/*  */}
         <Card
@@ -87,14 +85,14 @@ const About = forwardRef((props, ref) => {
             objectFit="cover"
             src={myImg}
             marginTop="4"
-            marginRight={{md:'8', base:'0'}}
+            marginRight={{ md: "8", base: "0" }}
             alt="Sneha Farkya"
             height={{ base: "auto", md: "350px" }}
             justifyContent={{ sm: "center" }}
             // border='1px'
           />
         </Card>
-        
+
         {/* </section> */}
         <Skills />
         {/* <Experience/> */}

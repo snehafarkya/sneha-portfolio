@@ -82,13 +82,13 @@ const Youtube = () => {
         </Heading>
         <div className="flex w-fit  flex-row flex-wrap gap-8 md:gap-8 justify-center">
           {jsonData.map((video, index) => (
-            <div key={index} className="overflow-hidden bg-[linear-gradient(40deg,#ffffff,#c8d2ee)] cursor-pointer rounded-lg w-[320px] h-[320px]">
+            <div
+              key={index}
+              className="overflow-hidden bg-[linear-gradient(40deg,#ffffff,#c8d2ee)] cursor-pointer rounded-lg w-[320px] h-[320px]"
+            >
               <div className="bg-transparent flex  flex-col gap-4 w-[320px] h-max">
                 <div className="h-[200px] ">
-                  <ReactPlayer
-                    url={video.link._attributes.href}
-                    controls
-                  />
+                  <ReactPlayer url={video.link._attributes.href} controls />
                 </div>
                 <div className="flex flex-col gap-1 px-4 pb-4">
                   <div className="flex justify-between"></div>

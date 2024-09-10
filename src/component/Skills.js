@@ -35,7 +35,7 @@ export default function Skills() {
           className="  z-50 h-12 p-1 flex justify-center items-center"
         />
       ),
-      label:"HTML5",
+      label: "HTML5",
       opacity: "263px",
       rating: 5,
     },
@@ -154,14 +154,14 @@ export default function Skills() {
         size="xl"
         as="h2"
         fontFamily="Orbitron"
-          paddingBottom="4px"
-          letterSpacing="1px"
-          width={'fit-content'}
-          borderBottom="2px solid"
-          borderBottomWidth="3px"
-          marginX={{ base: "0px", md: "0px" }}
-          paddingX={{ base: "16px", md: "4px" }}
-          className="text-white dark:text-[#18224b]"
+        paddingBottom="4px"
+        letterSpacing="1px"
+        width={"fit-content"}
+        borderBottom="2px solid"
+        borderBottomWidth="3px"
+        marginX={{ base: "0px", md: "0px" }}
+        paddingX={{ base: "16px", md: "4px" }}
+        className="text-white dark:text-[#18224b]"
       >
         Professional Skill Set
       </Heading>

@@ -34,7 +34,6 @@ export default function Hero() {
           content="This is the home page of my portfolio. It contains my designation and all the other internal links to my portfolio."
         />
         <link rel="canonical" href="/" />
-        
       </Helmet>
       <div className="grid grid-cols-1 md:gap-10 md:my-8 pt-20 md:pt-0 md:mt-16 place-items-center">
         <div className="order-last md:order-first">
@@ -74,14 +73,15 @@ export default function Hero() {
                 />
                 <Text
                   className="dark:text-[#18244b] text-white"
-                  textAlign={{md:'left',base:'center'}}
+                  textAlign={{ md: "left", base: "center" }}
                 >
                   Hello and Namaste! I’m Sneha from Indore, India. With over 2
                   years of experience, I specialize in developing user-friendly
                   digital experiences that blend functionality with aesthetic
                   appeal. My passion lies in crafting beautiful and intuitive
                   interfaces, making complex ideas accessible and engaging.{" "}
-                  <br /> <b>Welcome to my space where creativity meets technology!</b>
+                  <br />{" "}
+                  <b>Welcome to my space where creativity meets technology!</b>
                 </Text>
               </div>
             </CardBody>
@@ -93,12 +93,11 @@ export default function Hero() {
               />
               <Calendly />
             </CardFooter>
-
           </Card>
           <div className="md:mt-4">
-          <Banner/>
+            <Banner />
           </div>
-          <Projects/>
+          <Projects />
           <About ref={aboutRef} />
         </div>
       </div>

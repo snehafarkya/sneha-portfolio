@@ -17,7 +17,8 @@ export default function Newexp() {
               Working Since 2021
             </p>
             <p className="text-sm md:text-base text-gray-50 dark:text-[#18224b] mb-4">
-              Nurturing Growth and Learning - My Journey of Gaining Professional Experience Since Freshman Year in College
+              Nurturing Growth and Learning - My Journey of Gaining Professional
+              Experience Since Freshman Year in College
             </p>
             <SecondaryButton
               text={"Explore Now"}
