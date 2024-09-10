@@ -28,7 +28,7 @@ const NavBar = (props) => {
   return (
     <NavBarContainer
       {...props}
-      className={`fixed md:w-fit w-[100%]  md:mx-auto md:rounded-[50px] px-4 backdrop-blur-md transition-all ease-in-out duration-300 md:sticky md:top-0 z-50 ${
+      className={`fixed md:w-fit w-[100%]  md:mx-auto md:rounded-[50px] px-4 backdrop-blur-sm transition-all ease-in-out duration-300 md:sticky md:top-0 z-50 ${
         scrolling ? "bg-[#f0f4ffe3]" : "bg-[#f0f4ff]"
       } dark:bg-[linear-gradient(#0a173f,#414c6e)]`}
     >

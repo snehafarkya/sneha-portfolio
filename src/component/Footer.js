@@ -3,14 +3,14 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <footer class="text-center  text-white ">
+      <footer class="text-center pb-4 text-white ">
         <div class=" px-6 pt-6">
           <div class="flex justify-center items-center mb-3">
             <a
               href="https://www.twitter.com/sneha_farkya/"
               type="button"
               class="social rounded-full border-2 border-white dark:border-[#18224b] text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
-              target={"_blank"}
+              target="_blank"
             >
               <svg
                 aria-hidden="true"
