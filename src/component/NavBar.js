@@ -132,7 +132,7 @@ const MenuLinks = ({ isOpen, colorMode, toggleColorMode }) => {
           <MenuItem to="/contact">Contact</MenuItem>
           <PrimaryButton
             additionalClasses="text-white dark:text-[#18224b] w-[200px] md:hidden md:w-auto bg-[linear-gradient(#0a173f,#414c6e)] dark:bg-[linear-gradient(#dde5fa,#dadeec)]"
-            href="https://drive.google.com/file/d/1Omf9cN9670y4x0X6UP7OAB22QqxPzcF-/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Omf9cN9670y4x0X6UP7OAB22QqxPzcF-/view?usp=sharing"
             text="Resume"
           />
         </div>
@@ -155,7 +155,7 @@ const MenuLinks = ({ isOpen, colorMode, toggleColorMode }) => {
           </Box>
           <PrimaryButton
             additionalClasses="text-white dark:text-[#18224b] w-[200px] md:w-auto bg-[linear-gradient(#0a173f,#414c6e)] dark:bg-[linear-gradient(#dde5fa,#dadeec)]"
-            href="https://drive.google.com/file/d/1TTyX8rNdJWVpEY32b6yaMwCJCf6AKkmT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Omf9cN9670y4x0X6UP7OAB22QqxPzcF-/view?usp=sharing"
             text="Resume"
           />
         </div>
